@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lunch Buddies</string>
+    <string name="logoDescription">LunchBuddies Logo</string>
+    <string name="app_name_lunch">Lunch</string>
+    <string name="app_name_buddies">Buddies</string>
+    <string name="your_name">Your Name</string>
+    <string name="start">Start</string>
+</resources>

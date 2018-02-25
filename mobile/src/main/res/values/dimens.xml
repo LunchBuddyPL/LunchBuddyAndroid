@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="edittext_height">@dimen/button_height</dimen>
+    <dimen name="edittext_side_padding">26dp</dimen>
+    <dimen name="button_side_padding">32dp</dimen>
+</resources>

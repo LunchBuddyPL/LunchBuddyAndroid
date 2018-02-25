@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseFont">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="DisplayHuge" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/milk_chocolate</item>
+    </style>
+
+    <style name="DisplayBig" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/milk_chocolate</item>
+    </style>
+
+    <style name="ResultsName" parent="BaseFont">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/mango</item>
+    </style>
+
+    <style name="ButtonTxtGreen" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/dark_grass_green</item>
+    </style>
+
+    <style name="HeaderTxt" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextInputEditText" parent="BaseFont">
+        <item name="android:textColorHint">#99ffffff</item>
+    </style>
+
+    <style name="TextInputEditTextWarn" parent="TextInputEditText">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="TextInputEditTextHint" parent="TextInputEditText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#99ffffff</item>
+    </style>
+
+    <style name="InputPlaceholder" parent="BaseFont">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="ButtonTxt" parent="BaseFont">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TileHeader" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/mango</item>
+    </style>
+
+    <style name="InputWartoscCheckbox" parent="BaseFont">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BodyTxt" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="LinkSmallSelected" parent="BaseFont">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="LinkSmall" parent="LinkSmall">
+        <item name="android:textColor">@color/mango</item>
+    </style>
+</resources>
