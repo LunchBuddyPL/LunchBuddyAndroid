@@ -5,6 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         tools:context="com.nupli.mlf.lunchbuddies.StartActivity">
 
     <LinearLayout
@@ -57,23 +59,20 @@
 
         <android.support.design.widget.TextInputLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/edit_text_background"
+                android:background="@drawable/edit_text_rounded_left_background"
                 app:hintTextAppearance="@style/TextInputEditTextHint"
-                style="@style/TextInputEditText">
+                style="@style/TextInputEditTextHint">
 
             <android.support.design.widget.TextInputEditText
                     android:id="@+id/yourName"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="textPersonName"
-                    android:ems="10"
                     android:hint="@string/your_name"
-                    android:background="@null"
-                    android:textCursorDrawable="@null"
-                    android:paddingLeft="@dimen/edittext_side_padding"
-                    android:paddingRight="@dimen/edittext_side_padding"
+                    android:nextFocusUp="@id/yourName"
+                    android:nextFocusLeft="@id/yourName"
                     style="@style/TextInputEditText"/>
         </android.support.design.widget.TextInputLayout>
 

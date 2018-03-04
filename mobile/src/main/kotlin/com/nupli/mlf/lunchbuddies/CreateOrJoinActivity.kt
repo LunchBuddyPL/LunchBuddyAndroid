@@ -1,6 +1,7 @@
 package com.nupli.mlf.lunchbuddies
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_create_or_join.*
@@ -31,10 +32,6 @@ class CreateOrJoinActivity : Activity() {
             toast?.show()
         }
 
-        joinGroup.setOnClickListener {
-            toast?.cancel()
-            toast = Toast.makeText(this, "You've chosen to join existing lunch group!", Toast.LENGTH_SHORT)
-            toast?.show()
-        }
+        joinGroup.setOnClickListener { startActivity(Intent(this, JoinGroupActivity::class.java)) }
     }
 }

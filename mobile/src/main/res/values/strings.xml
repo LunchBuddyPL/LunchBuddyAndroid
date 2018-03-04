@@ -9,4 +9,6 @@
     <string name="create_group_description"><![CDATA[Choose lunch options & invite buddies]]></string>
     <string name="join_group">Join existing group</string>
     <string name="join_group_description">Get together with your lunch buddies</string>
+    <string name="join_group_enter_code">Enter 6 characters\' code</string>
+    <string name="join_group_title">Join group</string>
 </resources>
