@@ -17,4 +17,9 @@
         <item name="android:windowBackground">@drawable/background_start_layers</item>
     </style>
 
+    <style name="AppTheme.Tile">
+        <item name="android:background">@drawable/tile_background</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
 </resources>

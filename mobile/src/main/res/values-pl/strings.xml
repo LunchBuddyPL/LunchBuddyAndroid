@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_group">Utwórz nową grupę</string>
+    <string name="join_group">Dołącz do istniejącej grupy</string>
+    <string name="your_name">Twoje imię</string>
+    <string name="start">Start</string>
+    <string name="create_group_description">Wybierz obiady i zaproś znajomych</string>
+    <string name="join_group_description">Przyłącz się do Twoich znajomych</string>
+</resources>

@@ -66,6 +66,8 @@
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/mango</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 
     <style name="InputWartoscCheckbox" parent="BaseFont">

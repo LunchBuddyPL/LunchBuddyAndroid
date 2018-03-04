@@ -1,9 +1,11 @@
 package com.nupli.mlf.lunchbuddies
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_start.*
+
+const val EXTRA_MESSAGE_USER_NAME = "com.nupli.mlf.lunchbuddies.MESSAGE_USER_NAME"
 
 class StartActivity : Activity() {
 
@@ -12,8 +14,10 @@ class StartActivity : Activity() {
         setContentView(R.layout.activity_start)
 
         startButton.setOnClickListener {
-            Toast.makeText(this, "Hello ${yourName.text}!", Toast.LENGTH_LONG)
-                .show()
+            val intent = Intent(this, CreateOrJoinActivity::class.java).apply {
+                putExtra(EXTRA_MESSAGE_USER_NAME, yourName.text.toString())
+            }
+            startActivity(intent)
         }
     }
 }

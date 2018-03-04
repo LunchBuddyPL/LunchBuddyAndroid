@@ -1,8 +1,12 @@
 <resources>
-    <string name="app_name">Lunch Buddies</string>
-    <string name="logoDescription">LunchBuddies Logo</string>
-    <string name="app_name_lunch">Lunch</string>
-    <string name="app_name_buddies">Buddies</string>
+    <string name="app_name" translatable="false">Lunch Buddies</string>
+    <string name="logoDescription" translatable="false">LunchBuddies Logo</string>
+    <string name="app_name_lunch" translatable="false">Lunch</string>
+    <string name="app_name_buddies" translatable="false">Buddies</string>
     <string name="your_name">Your Name</string>
     <string name="start">Start</string>
+    <string name="create_group">Create new lunch group</string>
+    <string name="create_group_description"><![CDATA[Choose lunch options & invite buddies]]></string>
+    <string name="join_group">Join existing group</string>
+    <string name="join_group_description">Get together with your lunch buddies</string>
 </resources>

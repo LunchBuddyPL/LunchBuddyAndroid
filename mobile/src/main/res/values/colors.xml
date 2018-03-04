@@ -6,4 +6,6 @@
     <color name="brownish_orange">#dc851f</color>
     <color name="mango">#f8a737</color>
     <color name="dark">#263238</color>
+
+    <color name="tile_background">#f2ffffff</color>
 </resources>
