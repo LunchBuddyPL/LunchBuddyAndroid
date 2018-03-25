@@ -6,7 +6,7 @@ apply plugin: 'groovyx.android'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.nupli.mlf.lunchbuddies"
+        applicationId "pl.lunchbuddies.android"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1

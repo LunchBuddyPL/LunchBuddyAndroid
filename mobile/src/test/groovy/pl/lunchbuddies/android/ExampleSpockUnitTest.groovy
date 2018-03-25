@@ -1,4 +1,4 @@
-package com.nupli.mlf.lunchbuddies
+package pl.lunchbuddies.android
 
 import spock.lang.Specification
 import spock.lang.Unroll

@@ -1,4 +1,4 @@
-package com.nupli.mlf.lunchbuddies
+package pl.lunchbuddies.android
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -1,4 +1,4 @@
-package com.nupli.mlf.lunchbuddies
+package pl.lunchbuddies.android
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

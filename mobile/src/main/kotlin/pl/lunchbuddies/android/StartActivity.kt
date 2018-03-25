@@ -1,11 +1,11 @@
-package com.nupli.mlf.lunchbuddies
+package pl.lunchbuddies.android
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_start.*
 
-const val EXTRA_MESSAGE_USER_NAME = "com.nupli.mlf.lunchbuddies.MESSAGE_USER_NAME"
+const val EXTRA_MESSAGE_USER_NAME = "pl.lunchbuddies.android.MESSAGE_USER_NAME"
 
 class StartActivity : Activity() {
 

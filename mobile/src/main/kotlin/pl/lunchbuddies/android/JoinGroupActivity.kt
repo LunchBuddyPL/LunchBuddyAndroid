@@ -1,4 +1,4 @@
-package com.nupli.mlf.lunchbuddies
+package pl.lunchbuddies.android
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

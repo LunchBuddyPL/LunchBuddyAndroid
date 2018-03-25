@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        tools:context="com.nupli.mlf.lunchbuddies.StartActivity">
+        tools:context="pl.lunchbuddies.android.StartActivity">
 
     <LinearLayout
             android:layout_width="match_parent"

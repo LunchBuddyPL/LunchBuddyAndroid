@@ -1,4 +1,4 @@
-package com.nupli.mlf.lunchbuddies
+package pl.lunchbuddies.android
 
 import android.app.Activity
 import android.content.Intent
